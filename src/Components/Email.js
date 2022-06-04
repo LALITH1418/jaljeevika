@@ -6,7 +6,7 @@ function Email() {
     function sendMail(e){
         
         e.preventDefault();
-        emailjs.sendForm('service_mpjku9b', 'template_4pc5drq', e.target,'Ok9NKWIQv12MLyaO8')
+        emailjs.sendForm('service_mpjku9b', 'template_4pc5drq', e.target,'Ok9NKWIQv12MLyaO8o')
         .then(res=>{
             console.log(res);
         }).catch(err=>console.log(err));
